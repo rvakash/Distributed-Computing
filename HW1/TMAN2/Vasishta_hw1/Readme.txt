@@ -1,6 +1,7 @@
 /************************************************************************************
 This file describes the environment setup and libraries used for the TMAN's algorithm
-
+Read Homework1_update.pdf for the problem description.
+Read Assignement 12.pdf for the report.
 *************************************************************************************/
 Environment -
 1) OS - Linux
