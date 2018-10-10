@@ -1,8 +1,20 @@
 /************************************************************************************
 This file describes the environment setup and libraries used for the TMAN's algorithm
-Read Homework1_update.pdf for the problem description.
-Read Assignement 12.pdf for the report.
+Read ProblemStatement.pdf for the detailed problem description.
+Read ProjectReport.pdf for the report.
+Note - The report does not contain all the implementation details.
 *************************************************************************************/
+
+Problem Statement - 
+In this algorithm, every node in the network maintains a list of neighbors. During the network-initialization
+phase, each node randomly selects k neighbors and places them into its neighbor list. During the network-
+evolution phase, in each cycle of the iterative algorithm, every node randomly selects one of its neighbors,
+and then sends a list consisting of the identifiers of its neighbors and of itself to that neighbor. The selected
+neighbor also sends its neighbors list back to the node which initiated the action. Upon receiving the new
+neighbor list, the nodes select the nearest k nodes from both the new and old lists as their neighbors and
+discards all the others.
+
+
 Environment -
 1) OS - Linux
 
